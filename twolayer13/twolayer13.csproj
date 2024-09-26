@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="hh.aspx" />
     <Content Include="twlyr2.aspx" />
     <Content Include="twlyr3login.aspx" />
     <Content Include="twlyruser.aspx" />
@@ -74,6 +75,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="hh.aspx.cs">
+      <DependentUpon>hh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hh.aspx.designer.cs">
+      <DependentUpon>hh.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="twlyr1.cs" />
     <Compile Include="twlyr2.aspx.cs">
